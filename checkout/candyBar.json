@@ -1,0 +1,23 @@
+[
+    {
+        "producto":"palomitas de maiz",
+        "urlImagen":"https://res.cloudinary.com/dcea83ydd/image/upload/v1622170740/candyBar/popcorn_ya2zrf.png",
+        "precio": 120
+    },
+    {
+        "producto":"coca-cola",
+        "urlImagen":"https://res.cloudinary.com/dcea83ydd/image/upload/v1622170733/candyBar/bebida_ji6wxf.png",
+        "precio": 70
+    },
+    {
+        "producto":"snickers",
+        "urlImagen":"https://res.cloudinary.com/dcea83ydd/image/upload/v1622170738/candyBar/snickers_yhzgo9.png",
+        "precio": 50
+    },
+    {
+        "producto":"sour patch",
+        "urlImagen":"https://res.cloudinary.com/dcea83ydd/image/upload/v1622170733/candyBar/sourPatch_tqd6a2.png",
+        "precio": 30
+    }
+    
+]

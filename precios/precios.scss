@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+  
+a {
+    text-decoration: none;
+    color: #fff;
+}
+#contenedor-precios {
+    overflow: hidden;
+    .seccion {
+        background-color: #eee;
+        .titulo {
+            margin-top: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            position: relative;
+            &::before {
+                content:"";
+                display: block;
+                width: 30%;
+                height: 1px;
+                background-color: rgb(41, 41, 41);
+                position: absolute;
+                left: 10%;
+                bottom: 50%;
+            }
+            &::after {
+                content:"";
+                display: block;
+                width: 30%;
+                height: 1px;
+                background-color: rgb(41, 41, 41);
+                position: absolute;
+                right: 10%;
+                top: 50%;
+            }
+        }
+        .tabla{
+            width: 750px;
+            margin: 20px auto;
+            font-size: 16px;
+            border: 0.1px solid #333;
+            .fila {
+                display: flex;
+                span{
+                    width: 12.5%;
+                    text-align: center;
+    /*                 display: block; */
+    /*                 border: 0.1px solid #333; */
+                    font-size: 1em;
+                    padding: 1em;
+                }
+            }
+            .fila1 {
+                background-color: #222;
+                color: #fff;
+            }
+            .fila2{
+                span:nth-child(1){
+                    background-color: #222;
+                    color: #fff;
+                }
+            }
+            .fila3{
+                span:nth-child(1){
+                    background-color: #222;
+                    color: #fff;
+                }
+            }
+            
+        }
+    }
+}
+
+@media (max-width:620px){
+    #contenedor-precios{
+        .seccion{
+            .titulo {
+                margin-top: 10px;
+                font-size: 16px;
+                &::before {
+                    left: 5%;
+                }
+                &::after {
+                    right: 5%;
+                }
+            }
+            .tabla{
+                margin:10px auto;
+                width: 100%;
+                max-width: 450px;
+                font-size: 11px;
+            }
+        }
+    }
+}
+@media (min-width:621px) and (max-width:890px){
+    #contenedor-precios{
+        .seccion{
+            .tabla{
+                width: 80%;
+                max-width: 600px;
+                font-size: 14px;
+            }
+        }
+    }
+}

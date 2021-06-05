@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://kit.fontawesome.com/27afa08620.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <footer>
+        <div class="redes-afip">
+            <div class="redes">
+                <h2>REDES</h2>
+
+                <a href="https://www.facebook.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.whatsapp.com">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+            </div>
+            <div class="afip">
+                <h2>DATA FISCAL</h2>
+                <img src="https://cdn.jsdelivr.net/gh/persano/bannersmaximus/DATAWEB.png" alt="">
+            </div>
+        </div>
+        <div class="contenedor-mapa">
+            <h2>UBICACION</h2>
+            <iframe class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26267.498073012182!2d-58.45493076044921!3d-34.6183889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca46d589acab%3A0x5978dde4bba0bedf!2sCin%C3%A9polis%20Caballito!5e0!3m2!1ses-419!2sar!4v1618431880176!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+        <form  class="formulario">
+            <h2>CONTACTANOS</h2>
+            <label>
+                <span >Nombre</span>
+                <input type="text" placeholder="Nombre">
+            </label>
+            
+            <label>
+                <span>Apellido</span>
+                <input type="text" placeholder="Apellido">
+            </label>
+            
+            <label for="" >
+                <span > Email</span>
+                <input type="email" placeholder="Introduzca su Email">
+            </label>
+            
+            <label for="">
+                <span>Telefono</span>
+                <input type="tel" placeholder="Ingrese su Numero">
+            </label>
+            
+            <label for="">Comentario</label>
+            <textarea placeholder="Escriba su Comentario o Duda"></textarea>
+            <div class="boton">
+                <button>Enviar</button>
+            </div>
+            
+        </form>
+    </footer>
+    <script>
+        const redes = document.querySelector(".redes")
+        const redesActive = document.querySelector(".elemento-redes").addEventListener("click",(e)=>{
+            e.preventDefault()
+            window.scrollBy(redes.offsetWidth,redes.offsetTop)
+        })
+        const ubicacion = document.querySelector(".contenedor-mapa")
+        const ubicacionActive = document.querySelector(".elemento-mapa").addEventListener("click",(e)=>{
+            e.preventDefault()
+            window.scrollBy(ubicacion.offsetWidth,ubicacion.offsetTop)
+        })
+    </script>
+</body>
+
+</html>

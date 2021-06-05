@@ -1,0 +1,44 @@
+[
+    {
+        "numberDia": "1",
+        "dia":"lunes",
+        "segDimension": 230,
+        "tercDimension": 370
+    },
+    {
+        "numberDia": "2",
+        "dia":"martes",
+        "segDimension": 230,
+        "tercDimension": 370
+    },
+    {
+        "numberDia": "3",
+        "dia":"miercoles",
+        "segDimension": 320,
+        "tercDimension": 250
+    },
+    {
+        "numberDia": "4",
+        "dia":"jueves",
+        "segDimension": 150,
+        "tercDimension": 370
+    },
+    {
+        "numberDia": "5",
+        "dia":"viernes",
+        "segDimension": 320,
+        "tercDimension": 390
+    },
+    {
+        "numberDia": "6",
+        "dia":"sabado",
+        "segDimension": 230,
+        "tercDimension": 230
+    },
+    {
+        "numberDia": "0",
+        "dia":"domingo",
+        "segDimension": 170,
+        "tercDimension": 370
+    }
+]
